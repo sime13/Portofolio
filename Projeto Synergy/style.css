@@ -1,0 +1,87 @@
+body{
+    background-image: url(imagens/bck1.webp);
+   
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-color: rgb(60, 84, 85);
+}
+
+input{
+ background-color: rgb(118, 139, 133);
+ border: #3E5159;
+ width: 200px;
+ height: 20px;
+ 
+}
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.table1{
+    border: 5px;
+    background-color: rgb(17, 48, 49);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+
+
+.table2{
+   
+    text-align: center;
+    align-items: center;
+    text-align:center;
+    width: 30%;
+    background-color: rgb(94, 110, 105);
+    
+}
+
+.table3{
+    border: 5px solid rgb(34, 43, 48);
+    width: 30%;
+    padding: 7%;
+    padding-top:2%;
+    background-color: #3E5159;
+}
+
+.table4{
+    border: 5px solid rgb(34, 43, 48);
+    width: 35%;
+    padding: 5%;
+    background-color: #3E5159;
+    
+}
+.table5{
+    border: 5px solid rgb(34, 43, 48);
+    width: 55%;
+    padding: 5%;
+    background-color: #3E5159;
+    
+}
+
+.table6{
+    border: 5px solid rgb(34, 43, 48);
+    width: 70%;
+    padding: 7%;
+    padding-top:2%;
+    background-color: #3E5159;
+    
+}
+.table7{
+    border: 1px solid black;
+    width: 90%;
+}
+.table03{
+    border: 5px solid rgb(34, 43, 48);
+    width: 80%;
+    padding: 2%;
+    padding-top:2%;
+    background-color: #3E5159;
+}
