@@ -1,0 +1,32 @@
+table{
+    width: 600px;
+    background-color: #C7E7F3   ;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 32%;
+}
+th{
+    width: 100%;
+    background-color: #0D5188;
+    color: white;
+}
+
+.coluna1{
+    background-color:#66C5E3  ;
+}
+.num{
+    background-color: rgb(206, 195, 180);
+    text-align: center;
+}
+.cidade{
+    color: #0D5188;
+}
+.font{
+font-weight: normal;
+text-align: center;
+}
+
+#alinha{
+    text-align: center;
+}

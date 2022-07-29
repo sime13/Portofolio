@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+    <style>
+        table{
+            border: 1px none ;
+            font-family: Arial;
+            width: 500px;
+            margin-left: 535px;
+            font-size: 10pt;
+        }
+
+        
+        h2{
+            text-align: center;
+        }
+        .submit{
+            align-items: center;
+            margin-left: 55px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Ficha Cadastral</h2>
+    <table  cellpadding="px" cellspacing="1px">
+    <form action="">
+       <tr>
+            <td><label for="">Nome</label></td>
+            <td colspan="3"><input type="text"  maxlength="55"   style="width:100%;" ><br></td>
+        </tr>
+        
+        <tr>
+            <td> <label for="">RG</label></td>
+            <td> <input type="number" maxlength="13"></td>
+            <td> <label for="">C.P.F</label></td>
+            <td><input type="text"  maxlength="13" ><br></td>
+        </tr>
+        
+        <tr>
+            <td><label for="" >Endereço</label></td>
+            <td colspan="3"> <input type="text" maxlength="55"  style="width:100%;"></td>
+        </tr>
+        <tr>
+            <td> <label for="">Sexo</label></td>
+            <td>
+                <select name="" id="">
+                    <option value="">Masculino</option>
+                    <option value="">Feminino</option>
+                </select>
+            </td>
+            <td><label for="">Data Nascimento</label></td>
+            <td><input type="text"  maxlength="13"   ><br></td>
+        </tr>
+
+        <tr>
+            <td> <label for="">Estado Civil</label></td>
+            <td>  <input type="radio"><label for="">Solteiro(a)</label></td>
+            <td> <input type="radio"><label for="">Casado(a)</label></td>
+            <td><input type="radio"><label for="">Viuvo(a)</label> </td>
+        </tr>
+        <tr >
+            <td></td>
+            <td></td>
+            <td class="submit" colspan="3"> <input type="submit" value="Limpar Dados"></td>
+            <td></td>
+            <td></td>
+        </tr>
+    
+   
+    </form>
+     </table>
+</body>
+</html>
